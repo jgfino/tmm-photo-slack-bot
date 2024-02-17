@@ -1,0 +1,22 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    // other extends
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    // other plugins
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    // your rules
+    "prettier/prettier": "error",
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
+}
